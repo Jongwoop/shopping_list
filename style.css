@@ -1,7 +1,83 @@
+:root {
+  /* color */
+  --color-purple: #e1bee7;
+  --color-light-white: #fff1ff;
+  --color-light-grey: #e2e2e2;
+  --color-grey: #888585;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: black;
+  background: #e2e2e2;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  background-color: white;
 }
 
 .product {
-  background: linear-gradient(#e1bee7, #fff1ff);
+  background: linear-gradient(var(--color-purple), var(--color-light-white));
+  width: 400px;
+  height: 700px;
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+.product__screen {
+  background: white;
+  width: 400px;
+  height: 570px;
+  transform: translateY(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.divider {
+  width: 85%;
+  height: 1px;
+  display: block;
+  background-color: var(--color-light-grey);
+  margin: 5px 20px;
+}
+
+.deleteBtn {
+  font-size: 16px;
+  margin: 0;
+  color: var(--color-grey);
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+.addBtn {
+  z-index: 1;
+  align-items: center;
+  transform: translateY(35px);
+  background-color: var(--color-light-white);
+  font-size: 25px;
+  color: var(--color-purple);
 }
