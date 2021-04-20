@@ -75,9 +75,10 @@ input {
 
 .addBtn {
   z-index: 1;
-  align-items: center;
-  transform: translateY(35px);
-  background-color: var(--color-light-white);
-  font-size: 25px;
+  width: 25px;
+  font-size: 30px;
+  margin: auto;
+  background-color: transparent;
   color: var(--color-purple);
+  margin-bottom: 15px;
 }
