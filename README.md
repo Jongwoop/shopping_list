@@ -17,4 +17,4 @@ HTML, CSS and Javascript
 ## Screenshot
 
 ![Image of Screenshot]
-(./screenshot.png)
+(https://github.com/Jongwoop/shopping_list/blob/main/screenshot.png)
