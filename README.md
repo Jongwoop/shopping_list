@@ -16,5 +16,5 @@ HTML, CSS and Javascript
 
 ## Screenshot
 
-![Image of Screenshot]
-(https://github.com/Jongwoop/shopping_list/blob/main/screenshot.png)
+<img src="https://github.com/Jongwoop/shopping_list/blob/main/screenshot.png" alt="screenshot" width="600px" />
+
